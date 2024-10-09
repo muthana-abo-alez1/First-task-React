@@ -1,0 +1,54 @@
+.member-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+
+  .member-card.not-selected{
+    opacity: 0.5;               
+    pointer-events: none;  
+  }
+  .person-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .person-icon {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #000000; 
+  }
+  
+  .name {
+    font-size: 16px;
+    color: #707070;
+  }
+  
+  .checkmark-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #cccccc; 
+    border-radius: 50%; 
+    position: relative;
+  }
+  
+  .checkmark-container.selected {
+    border-color: #8BC34A; 
+  }
+  
+  .check-icon {
+    color: #8BC34A; 
+    font-size: 16px;
+  }
