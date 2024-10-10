@@ -2,7 +2,7 @@ import { MemberCard } from "../memberCard/MemberCard";
 import Search from "../search/Search";
 import "./MembersCardsSection.css";
 
-export const MemberList = ({ showSearch }) => {
+export const MembersCardsSection = ({ showSearch }) => {
   const members = [
     { name: "Carolien Bloeme", selected: false },
     { name: "Sun Jun", selected: true },
