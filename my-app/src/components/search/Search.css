@@ -1,0 +1,28 @@
+/* Search.css */
+.search-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0; 
+    padding: 5px 0;
+    max-width: 380px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .search-icon {
+    color: #7c7a7a; 
+    margin-right: 8px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #7c7a7a; 
+  }
+  
+  .search-input::placeholder {
+    color: #7c7a7a; 
+  }
