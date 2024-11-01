@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <div className="container">
         <p>Add members to Front-end development team</p>
-        <MembersCardsSection showSearch={true}/>
+        <MembersCardsSection/>
         <div className="buttons">
-        <Button  variant="cancel" />
-        <Button variant="save" />
+        <Button  variant="cancel" text={"Cancel"}/>
+        <Button variant="save" text={"Save"}/>
         </div>
       </div>
     </div>

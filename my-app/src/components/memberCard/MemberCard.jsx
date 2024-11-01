@@ -15,7 +15,7 @@ export const MemberCard = ({ name, selected }) => {
       </div>
       <div className={`checkmark-container ${selected ? "selected" : ""}`}>
         {selected && <FontAwesomeIcon icon={faCheck} className="check-icon" />}
-      </div>{" "}
+      </div>
     </div>
   );
 };
